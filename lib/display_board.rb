@@ -4,6 +4,6 @@ board = []
 board = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 
 def display_boardd(board)
-puts"   |   |   ", "-----------","   |   |   ","-----------","   |   |   "
+puts" #{board[0]}  |   |   ", "-----------","   |   |   ","-----------","   |   |   "
 end
 display_board(board)
